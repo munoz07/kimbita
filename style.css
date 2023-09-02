@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+body {
+    
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(198, 241, 227);
+    color: rgb(255, 255, 255);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #181717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: withe;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+   display: block;
+   padding: 20px 20px; 
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+
+}
+
+.navbar a:hover{
+    background: rgb(66, 64, 64);
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important; 
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+
+.title {
+    margin-bottom: 48px;
+    font-size: 60px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 0, 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.sau {
+    height: 90vh;
+    background: #4d6928;
+}
+
+.about {
+    background: rgb(36, 104, 32);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: rgb(40, 44, 14);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background:#85e20b;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color:#cf6262;
+}
+ 
+.box-container .bbox p {
+    font-size: 16px;
+
+}
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.price .btn{
+    background: #080808;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #4d6928;
+    padding-bottom: 0;
+}
+
+.box-container .box2{
+    margin: 2rem;
+}
+
+.box-container .box2 i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background:#243014;
+    font-size: 2rem;
+    margin: 1rem 0;
+    justify-content: center;
+
+}
+
+.box-container .box2 a {
+    font-size: 20px;
+    color:#243014;
+}
+
+
+
+
+@media (max-width: 768px){
+
+    .title {
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    
+}
